@@ -2,9 +2,13 @@
 # https://www.acmicpc.net/problem/1920
 N = int(input())
 A = list(map(int, input().split()))
-A.sort()#자동 정렬
+A.sort()#자동 오름차순 정렬
 M = int(input())
 target_list = list(map(int, input().split()))
+
+print("입력 정보 확인")
+print(N, A)
+print(M, target_list)
 
 for i in range(M):
     find = False

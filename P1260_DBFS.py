@@ -1,3 +1,5 @@
+#DFS와 BFS
+
 from collections import deque
 N, M, Start = map(int, input().split()) #노드개수, 엣지개수, 시작점
 A = [[] for _ in range(N+1)] #그래프 형태 리스트로 저장
