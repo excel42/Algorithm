@@ -1,20 +1,17 @@
 # Algorithm
 ## Practice Algorithm for coding test with Python
-
-
-
-
 This repository contains my solutions to algorithmic problems from  
 **BOJ (Baekjoon Online Judge)(https://www.acmicpc.net/problemset)** 
+<br>
 Online competitive programming platforms in Korea.  
 - The purpose of this repository is to strengthen - problem-solving skills,  
 - build reusable templates, and organize solutions by category for quick review.  
-
+<br>
 
 
 ---
-### 📑 Categories 
-
+### 📑 목차(Categories) 
+```
 [0] templates  
   - 입출력, DFS/BFS, 다익스트라, 벨만포드, 유니온파인드 등 기본 스니펫 모음
 
@@ -44,7 +41,8 @@ Online competitive programming platforms in Korea.
 
 [9] DP  
   - 동적 계획법, LIS, 배낭 문제 등
-
+```
 ---
+
 참고 : 알고리즘 코딩테스트(파이썬편) - 김종관 저(이지스퍼블리싱)
 
