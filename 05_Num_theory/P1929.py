@@ -1,3 +1,4 @@
+#decimal
 import math
 N, M = map(int, input().split())
 A = [0] * (N + 1)
