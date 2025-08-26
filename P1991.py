@@ -13,26 +13,26 @@ for _ in range(N):
 def preOrder(now): 
     if now == '.':
         return #자식 노드가 없는 경우
-    print(now, end='')
+    print(now, end='') #현재 노드
     preOrder(tree[now][0]) #왼쪽 탐색
     preOrder(tree[now][1]) #오른쪽 탐색
 #중위 순회(왼-현-오)
 def inOrder(now):
     if now == '.':
         return
-    inOrder(tree[now][0])
-    print(now, end='')
-    inOrder(tree[now][1])
+    inOrder(tree[now][0]) #왼쪽 탐색
+    print(now, end='') #현재 노드
+    inOrder(tree[now][1]) #오른쪽 탐색
 #후위 순회(왼-오-현)
 def postOrder(now):
     if now == '.':
         return
-    postOrder(tree[now][0])
-    postOrder(tree[now][1])
-    print(now, end='')
+    postOrder(tree[now][0]) #왼쪽 탐색
+    postOrder(tree[now][1]) #오른쪽 탐색
+    print(now, end='') #현재 노드
 
-preOrder('A')
+preOrder('A') #전위 순회 결과 출력
 print()
-inOrder('A')
+inOrder('A') #중위 순회 결과 출력
 print()
-postOrder('A')
+postOrder('A') #후위 순회 결과 출력
