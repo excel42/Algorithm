@@ -1,4 +1,4 @@
-#매개변수 탐색
+#이진탐색(매개변수)탐색
 #나무 자르기(절단기 설정 높이 최댓값)
 from sys import stdin
 input = stdin.readline
