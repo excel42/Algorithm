@@ -13,7 +13,7 @@ Online competitive programming platforms in Korea.
 ### 📑 목차(Categories) 
 ```
 [0] templates  
-  - 입출력, DFS/BFS, 다익스트라, 벨만포드, 유니온파인드 등 기본 스니펫 모음
+  - 입출력, DFS/BFS, 다익스트라, 벨만포드, 유니온파인드 등 기본 템플릿 모음
 
 [1] DataStructure  
   - 스택, 큐, 덱, 해시, 힙 등 자료구조 문제
@@ -28,7 +28,7 @@ Online competitive programming platforms in Korea.
   - 탐욕 알고리즘, 동전, 회의실 배정 등 최적 선택 문제
 
 [5] Num_theory  
-  - 소수 판정, 최대공약수(GCD), 최소공배수(LCM), 모듈러 연산 문제
+  - 소수 판정, 최대공약수, 최소공배수 등
 
 [6] Graph  
   - DFS, BFS, 연결 요소, 위상정렬, 최단경로 기본 문제
